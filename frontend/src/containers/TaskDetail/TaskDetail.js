@@ -113,7 +113,7 @@ class TaskDetail extends Component {
                 </div>
                 <div className="form-group">
                     <label>Статус</label>
-                    <Select options={select_options} name='status' value={this.state.task.status}
+                    <Select options={select_options} name='status' value={this.state.task.label}
                             onChange={(value) => this.updateTaskState('status', value.value)}/>
                 </div>
 

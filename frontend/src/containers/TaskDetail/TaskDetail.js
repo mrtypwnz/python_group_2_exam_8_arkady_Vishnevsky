@@ -45,11 +45,6 @@ class TaskDetail extends Component {
         this.updateTaskState(field, date.toISOString());
     };
 
-    selectChanged = (field, values) => {
-        // values = {value: ..., label: ...}
-        const status = values.map(item => item.value);
-        this.updateTaskState(field, status);
-    };
 
     formSubmitted = (event) => {
         event.preventDefault();
@@ -85,9 +80,9 @@ class TaskDetail extends Component {
 
         const due_date_selected = due_date ? new Date(due_date) : null;
 
-        const select_options = [{value: 'todo', label: 'В очереди'},
-            {value: 'progress', label: 'В работе'},
-            {value: 'done', label: 'Сделано'}];
+        const select_options = [{value: 'todo', label: 'queue'},
+            {value: 'progress', label: 'current tasks'},
+            {value: 'done', label: 'done'}];
 
 
 

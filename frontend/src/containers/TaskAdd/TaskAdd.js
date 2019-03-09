@@ -82,7 +82,7 @@ class TaskAdd extends Component {
 
 
         return <div>
-                        <p><NavLink to='/'>На главную</NavLink></p>
+            <p><NavLink to='/'>На главную</NavLink></p>
             {alert}
             <form onSubmit={this.formSubmitted}>
                 <div className="form-group">

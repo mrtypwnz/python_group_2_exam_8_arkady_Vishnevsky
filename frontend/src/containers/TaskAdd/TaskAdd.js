@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {TASKS_URL} from "../../Api_Urls";
 import DatePicker from "react-datepicker";
 import axios from 'axios';
+import {NavLink} from "react-router-dom";
 
 
 class TaskAdd extends Component {
@@ -81,6 +82,7 @@ class TaskAdd extends Component {
 
 
         return <div>
+                        <p><NavLink to='/'>На главную</NavLink></p>
             {alert}
             <form onSubmit={this.formSubmitted}>
                 <div className="form-group">

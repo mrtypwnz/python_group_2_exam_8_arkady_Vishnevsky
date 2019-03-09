@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="eb8426bd-00b2-4d9e-b565-137072330639" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/TaskCard/TaskCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/TaskCard/TaskCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/UI/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/UI/Card/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/containers/TaskAdd/TaskAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/containers/TaskAdd/TaskAdd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/containers/TaskList/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/containers/TaskList/TaskList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanban_board/webapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/kanban_board/webapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/containers/TaskDetail/TaskDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/containers/TaskDetail/TaskDetail.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,18 +48,18 @@
           <entry key="TaskList" value="1" />
           <entry key="dummy" value="4" />
           <entry key="gitignore" value="10" />
-          <entry key="js" value="1092" />
+          <entry key="js" value="1149" />
           <entry key="json" value="1" />
-          <entry key="py" value="436" />
-          <entry key="txt" value="227" />
+          <entry key="py" value="438" />
+          <entry key="txt" value="310" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="1092" />
-          <entry key="PLAIN_TEXT" value="242" />
-          <entry key="Python" value="436" />
+          <entry key="JavaScript" value="1149" />
+          <entry key="PLAIN_TEXT" value="325" />
+          <entry key="Python" value="438" />
         </counts>
       </usages-collector>
     </session>
@@ -73,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/frontend/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -112,22 +109,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/containers/TaskAdd/TaskAdd.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/TaskCard/TaskCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="60">
+              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -148,10 +133,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/containers/TaskAdd/TaskAdd.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/containers/TaskDetail/TaskDetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
+            <state relative-caret-position="364">
+              <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -159,11 +156,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kanban_board/kanban_board/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-871">
-              <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+            <state relative-caret-position="232">
+              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -172,7 +169,7 @@
         <entry file="file://$PROJECT_DIR$/kanban_board/webapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -202,16 +199,16 @@
         <option value="$PROJECT_DIR$/frontend/src/api_url.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/frontend/package.json" />
-        <option value="$PROJECT_DIR$/kanban_board/kanban_board/settings.py" />
         <option value="$PROJECT_DIR$/kanban_board/api_v1/views.py" />
         <option value="$PROJECT_DIR$/frontend/src/index.js" />
         <option value="$PROJECT_DIR$/kanban_board/webapp/models.py" />
         <option value="$PROJECT_DIR$/frontend/src/App.js" />
-        <option value="$PROJECT_DIR$/frontend/src/containers/TaskDetail/TaskDetail.js" />
         <option value="$PROJECT_DIR$/frontend/src/components/UI/Card/Card.js" />
         <option value="$PROJECT_DIR$/frontend/src/components/TaskCard/TaskCard.js" />
         <option value="$PROJECT_DIR$/frontend/src/containers/TaskList/TaskList.js" />
         <option value="$PROJECT_DIR$/frontend/src/containers/TaskAdd/TaskAdd.js" />
+        <option value="$PROJECT_DIR$/kanban_board/kanban_board/settings.py" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/TaskDetail/TaskDetail.js" />
       </list>
     </option>
   </component>
@@ -409,11 +406,19 @@
       <option name="project" value="LOCAL" />
       <updated>1552133501048</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Сделал страницу добавления и подробной информации о задаче">
+      <created>1552138367786</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552138367787</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -449,7 +454,8 @@
     <MESSAGE value="Сделаны первые два этапа, создал модель Task с сериализатором, подключил drf и django-cors-headers" />
     <MESSAGE value="мигрировал модель Task" />
     <MESSAGE value="сделана главная страница" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделана главная страница" />
+    <MESSAGE value="Сделал страницу добавления и подробной информации о задаче" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал страницу добавления и подробной информации о задаче" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/kanban_board/webapp/admin.py">
@@ -554,14 +560,7 @@
     <entry file="file://$PROJECT_DIR$/frontend/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kanban_board/webapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -569,16 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/TaskCard/TaskCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -612,10 +601,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kanban_board/kanban_board/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kanban_board/webapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/TaskCard/TaskCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/containers/TaskAdd/TaskAdd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        <state relative-caret-position="435">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -624,18 +637,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/containers/TaskDetail/TaskDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
+        <state relative-caret-position="364">
+          <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kanban_board/kanban_board/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-871">
-          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
         </state>
       </provider>
     </entry>

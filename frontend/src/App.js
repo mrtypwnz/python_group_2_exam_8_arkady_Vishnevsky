@@ -14,7 +14,7 @@ class App extends Component {
                     <Switch>
                         <Route path="/" render={()=> <TaskList/>} exact />
                         <Route path="/tasks/:id" component={TaskDetail}/>
-                        {/*<Route path="/" component={TaskList}/>*/}
+                        <Route path="/add" component={TaskAdd}/>
                     </Switch>
                 </BrowserRouter>
             </div>

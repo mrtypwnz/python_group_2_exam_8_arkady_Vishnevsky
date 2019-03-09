@@ -13,7 +13,7 @@ class TaskDetail extends Component {
         const match = this.props.match;
 
         axios.get(TASKS_URL + match.params.id)
-            .then(response => {console.log(response.data); return response.data.results;})
+            .then(response => {console.log(response.data); return response.data;})
             .then(task => this.setState({task}))
             .catch(error => console.log(error));
     }
@@ -27,7 +27,7 @@ class TaskDetail extends Component {
             <h1>{summary}</h1>
 
             <p>статус: {status}</p>
-            <p className="text-secondary">задачана назначена{due_date} до: {time_planned}</p>
+            <p className="text-secondary">время на задачу: {time_planned}</p>
             {description ? <p>{description}</p> : null}
 
             <NavLink to='' className="btn btn-primary">Задачи</NavLink>
